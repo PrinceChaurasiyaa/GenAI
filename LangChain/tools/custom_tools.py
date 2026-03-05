@@ -11,7 +11,7 @@ print(result)
 print(add.name)
 print(add.description)
 print(add.args)
-print(add.args_schema.model_json_schema())
+#print(add.args_schema.model_json_schema())
 # Using StructuredTool
 from langchain_core.tools import Tool, StructuredTool
 
@@ -32,4 +32,4 @@ print(response)
 print(multiply_tools.name)
 print(multiply_tools.description)
 print(multiply_tools.args)
-print(multiply_tools.args_schema.model_json_schema())
+#print(multiply_tools.args_schema.model_json_schema())
